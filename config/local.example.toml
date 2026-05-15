@@ -1,0 +1,41 @@
+[paths]
+cfc_repo_path = "/path/to/caltech-fish-counting"
+cfc_data_path = "/path/to/cfc"
+cfc_metadata_path = "/path/to/cfc/metadata"
+cfc_annotations_path = "/path/to/cfc/annotations"
+cfc_raw_root = "/path/to/cfc/raw"
+cfc_3channel_root = "/path/to/cfc/3channel"
+nz_thermal_data_path = "/path/to/nz_thermal"
+nz_thermal_metadata_path = "/path/to/nz_thermal/metadata.json"
+nz_thermal_clip_metadata_path = "/path/to/nz_thermal/clip_metadata.json"
+nz_thermal_splits_path = "/path/to/nz_thermal/splits.json"
+nz_thermal_filtered_root = "/path/to/nz_thermal/filtered"
+nz_thermal_normalized_root = "/path/to/nz_thermal/normalized"
+private_manifest_path = "/path/to/local_meta/clip_manifest.csv"
+private_counts_path = "/path/to/local_meta/weak_counts.csv"
+output_root = "outputs"
+
+[qwen]
+provider = "dashscope_openai"
+model = "qwen2.5-vl-7b-instruct"
+scripted_responses_path = ""
+api_key = ""
+api_key_env = "DASHSCOPE_API_KEY"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+timeout_seconds = 600
+max_frames = 16
+thinking_level = ""
+prefer_temporary_oss_upload = true
+
+#[qwen]
+#provider = "gemini_api"
+#model = "gemini-3.1-pro-preview"
+#scripted_responses_path = ""
+#api_key = ""
+#api_key_env = "GEMINI_API_KEY"
+#base_url = "https://generativelanguage.googleapis.com/v1beta"
+#timeout_seconds = 600
+#max_frames = 16
+#temperature = 0.0
+#thinking_level = "high"
+#prefer_temporary_oss_upload = false

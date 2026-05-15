@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "cfc",
+    "bucket": "single_salient",
+    "domain": "elwha",
+    "clip_id": "Elwha_2018_OM_ARIS_2018_07_10_2018-07-10_090000_0_354"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "single_salient",
+    "domain": "elwha",
+    "clip_id": "Elwha_2018_OM_ARIS_2018_07_11_2018-07-11_020000_647_1098"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "fragmented_two_event",
+    "domain": "kenai-val",
+    "clip_id": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "fragmented_two_event",
+    "domain": "kenai-val",
+    "clip_id": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "fragmented_two_event",
+    "domain": "kenai-val",
+    "clip_id": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "ambiguous_multiwave",
+    "domain": "nushagak",
+    "clip_id": "RB_Nusagak_Sonar_Files_2018_RB_2018-08-06_171000_300_600"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "ambiguous_multiwave",
+    "domain": "nushagak",
+    "clip_id": "RB_Nusagak_Sonar_Files_2018_RB_2018-08-06_171000_4200_4500"
+  },
+  {
+    "dataset": "cfc",
+    "bucket": "ambiguous_multiwave",
+    "domain": "nushagak",
+    "clip_id": "RB_Nusagak_Sonar_Files_2018_RB_2018-08-06_161000_2100_2400"
+  }
+]

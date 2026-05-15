@@ -1,0 +1,33 @@
+model_name_or_path: Qwen/Qwen3.5-9B
+dataset_path: outputs/event_inference_sft/train/train.jsonl
+val_dataset_path: outputs/event_inference_sft/train/train.jsonl
+output_dir: outputs/qwen9b_qlora_v1
+
+load_in_4bit: true
+torch_dtype: bfloat16
+gradient_checkpointing: true
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+training:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 16
+  learning_rate: 2e-4
+  warmup_ratio: 0.03
+  num_train_epochs: 1
+  logging_steps: 10
+  save_steps: 200
+  eval_steps: 200
+  max_seq_length: 4096
+  save_total_limit: 2

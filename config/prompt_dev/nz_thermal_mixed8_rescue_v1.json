@@ -1,0 +1,34 @@
+[
+  {
+    "bucket": "false_positive",
+    "clip_id": "1007046"
+  },
+  {
+    "bucket": "false_positive",
+    "clip_id": "1007168"
+  },
+  {
+    "bucket": "false_positive",
+    "clip_id": "1007424"
+  },
+  {
+    "bucket": "false_positive",
+    "clip_id": "1007448"
+  },
+  {
+    "bucket": "rodent",
+    "clip_id": "1000577"
+  },
+  {
+    "bucket": "rodent",
+    "clip_id": "1001878"
+  },
+  {
+    "bucket": "rodent",
+    "clip_id": "1001879"
+  },
+  {
+    "bucket": "rodent",
+    "clip_id": "1001880"
+  }
+]

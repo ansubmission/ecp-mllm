@@ -1,0 +1,15 @@
+[
+  {
+    "clip_name": "clip_a",
+    "num_frames": 2,
+    "upstream_direction": "right",
+    "width": 100,
+    "height": 50,
+    "framerate": 10.0,
+    "x_meter_start": 0.0,
+    "x_meter_stop": 10.0,
+    "y_meter_start": 0.0,
+    "y_meter_stop": 5.0
+  }
+]
+

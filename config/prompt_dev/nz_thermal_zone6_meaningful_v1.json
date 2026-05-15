@@ -1,0 +1,26 @@
+[
+  {
+    "bucket": "zone_positive_meaningful",
+    "clip_id": "1001226"
+  },
+  {
+    "bucket": "zone_positive_meaningful",
+    "clip_id": "1002720"
+  },
+  {
+    "bucket": "zone_negative_animal",
+    "clip_id": "1000791"
+  },
+  {
+    "bucket": "zone_negative_animal",
+    "clip_id": "1001878"
+  },
+  {
+    "bucket": "zone_negative_fp",
+    "clip_id": "1007046"
+  },
+  {
+    "bucket": "zone_negative_fp",
+    "clip_id": "1007424"
+  }
+]

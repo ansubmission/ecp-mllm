@@ -1,0 +1,28 @@
+[paths]
+cfc_repo_path = "/home/ubuntu/work/ecp_mllm/caltech-fish-counting"
+cfc_data_path = "/data/ecp_mllm/cfc"
+cfc_metadata_path = ""
+cfc_annotations_path = "/data/ecp_mllm/cfc/mot"
+cfc_raw_root = "/data/ecp_mllm/cfc/images"
+cfc_3channel_root = "/data/ecp_mllm/cfc/images/kenai-3channel"
+nz_thermal_data_path = "/data/ecp_mllm/nz_thermal"
+nz_thermal_metadata_path = ""
+nz_thermal_clip_metadata_path = ""
+nz_thermal_splits_path = "/data/ecp_mllm/nz_thermal/splits_extracted/new-zealand-wildlife-thermal-imaging-splits.json"
+nz_thermal_filtered_root = ""
+nz_thermal_normalized_root = ""
+private_manifest_path = ""
+private_counts_path = ""
+output_root = "outputs"
+
+[qwen]
+provider = "dashscope_openai"
+model = "qwen3.5-9b-local"
+api_key = "local"
+api_key_env = ""
+base_url = "http://127.0.0.1:8019/v1"
+timeout_seconds = 600
+max_frames = 16
+temperature = 0.0
+prefer_temporary_oss_upload = false
+

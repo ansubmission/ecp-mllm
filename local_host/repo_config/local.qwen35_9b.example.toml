@@ -1,0 +1,10 @@
+[qwen]
+provider = "dashscope_openai"
+model = "qwen3.5-9b-local"
+api_key = "local"
+base_url = "http://127.0.0.1:8019/v1"
+timeout_seconds = 600
+max_frames = 16
+temperature = 0.0
+prefer_temporary_oss_upload = false
+

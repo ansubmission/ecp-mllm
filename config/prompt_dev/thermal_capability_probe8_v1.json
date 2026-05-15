@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "thermal",
+    "bucket": "animal_brief",
+    "domain": "526",
+    "clip_id": "915548"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "animal_brief",
+    "domain": "573",
+    "clip_id": "1138731"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "animal_persistent",
+    "domain": "134",
+    "clip_id": "82508"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "animal_persistent",
+    "domain": "573",
+    "clip_id": "1138699"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "false_positive_easy",
+    "domain": "811",
+    "clip_id": "1418561"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "false_positive_easy",
+    "domain": "811",
+    "clip_id": "1418617"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "false_positive_hard",
+    "domain": "test",
+    "clip_id": "250577"
+  },
+  {
+    "dataset": "thermal",
+    "bucket": "false_positive_hard",
+    "domain": "test",
+    "clip_id": "817968"
+  }
+]
